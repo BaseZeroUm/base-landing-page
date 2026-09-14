@@ -1,5 +1,5 @@
 import type { BlogAuthor } from "@/lib/blog-content";
-import dotsBar from "@/assets/dots-bar.png.asset.json";
+const dotsBar = { url: "/dots-bar.png" };
 
 
 interface BlogCoverProps {

@@ -1,5 +1,5 @@
-import pulgaCover from "@/assets/blog-pulga.png.asset.json";
-import felipePortrait from "@/assets/felipe-garcez-crop.jpg";
+const pulgaCover = { url: "/blog-pulga.png" };
+const felipePortrait = "/felipe-garcez-crop.jpg";
 
 export interface BlogAuthor {
   name: string;
