@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import logoAsset from "@/assets/logo.png.asset.json";
+const logoAsset = { url: "/logo.png" };
 import { BLOG_POSTS, formatDate } from "@/lib/blog-content";
 import { BlogCover } from "@/components/BlogCover";
 import { NewsletterForm } from "@/components/NewsletterForm";

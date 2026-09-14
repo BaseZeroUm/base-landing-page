@@ -1,11 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import creatorsLogo from "@/assets/creators01-logo.png.asset.json";
-import block64 from "@/assets/Group_64.png.asset.json";
-import block65 from "@/assets/Group_65.png.asset.json";
-import iconBI from "@/assets/Group_41-2.png.asset.json";
-import iconEng from "@/assets/Group_44-2.png.asset.json";
-import iconSci from "@/assets/Group_1000011548-2.png.asset.json";
+const creatorsLogo = { url: "/creators01-logo.png" };
+const block64 = { url: "/Group_64.png" };
+const block65 = { url: "/Group_65.png" };
+const iconBI = { url: "/Group_41-2.png" };
+const iconEng = { url: "/Group_44-2.png" };
+const iconSci = { url: "/Group_1000011548-2.png" };
 import { CreatorsLeadForm } from "@/components/CreatorsLeadForm";
 import { EmailLink, InstagramLink } from "@/components/SocialLinks";
 

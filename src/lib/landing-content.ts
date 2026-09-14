@@ -1,11 +1,11 @@
-import portalVisaoGeral from "@/assets/portal-visao-geral.png.asset.json";
-import portalFaturamento from "@/assets/portal-faturamento.png.asset.json";
-import portalPrevisao from "@/assets/portal-previsao.png.asset.json";
-import portalChatWidget from "@/assets/portal-chat-widget.png.asset.json";
-import portalChatPagina from "@/assets/portal-chat-pagina.png.asset.json";
-import iconBI from "@/assets/Group_41-2.png.asset.json";
-import iconEng from "@/assets/Group_44-2.png.asset.json";
-import iconSci from "@/assets/Group_1000011548-2.png.asset.json";
+const portalVisaoGeral = { url: "/portal-visao-geral.png" };
+const portalFaturamento = { url: "/portal-faturamento.png" };
+const portalPrevisao = { url: "/portal-previsao.png" };
+const portalChatWidget = { url: "/portal-chat-widget.png" };
+const portalChatPagina = { url: "/portal-chat-pagina.png" };
+const iconBI = { url: "/Group_41-2.png" };
+const iconEng = { url: "/Group_44-2.png" };
+const iconSci = { url: "/Group_1000011548-2.png" };
 
 export const PILLARS = [
   {
