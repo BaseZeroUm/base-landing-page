@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import logoAsset from "@/assets/logo.png.asset.json";
-import block64 from "@/assets/Group_64.png.asset.json";
-import block65 from "@/assets/Group_65.png.asset.json";
-import heroVideo from "@/assets/b01_hero_som.mp4.asset.json";
-import heroPoster from "@/assets/b01_hero_poster.jpg.asset.json";
+const logoAsset = { url: "/logo.png" };
+const block64 = { url: "/Group_64.png" };
+const block65 = { url: "/Group_65.png" };
+const heroVideo = { url: "/b01_hero_som.mp4" };
+const heroPoster = { url: "/b01_hero_poster.jpg" };
 import { PILLARS, PORTAL_TABS } from "@/lib/landing-content";
 import { LeadForm } from "@/components/LeadForm";
 import { ToolLogos } from "@/components/ToolLogos";

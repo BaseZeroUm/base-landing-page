@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import logoAsset from "@/assets/logo.png.asset.json";
-import block65 from "@/assets/Group_65.png.asset.json";
+const logoAsset = { url: "/logo.png" };
+const block65 = { url: "/Group_65.png" };
 import { BlogLink, EmailLink, InstagramLink } from "@/components/SocialLinks";
 
 const TITLE = "Produtos Base01 Start, soluções de dados prontas para usar";
