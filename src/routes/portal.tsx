@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 
-import logoAsset from "@/assets/logo.png.asset.json";
+const logoAsset = { url: "/logo.png" };
 import { EmailLink, InstagramLink } from "@/components/SocialLinks";
 import { supabase } from "@/integrations/supabase/client";
 
