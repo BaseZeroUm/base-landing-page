@@ -51,9 +51,14 @@ function BlogPostPage() {
             <Link to="/blog" className="text-sm font-bold text-brand-blue">
               Blog
             </Link>
-            <Link to="/portal" className="btn-outline-blue">
+            <a
+              href="https://reciclagem.basezeroum.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline-blue"
+            >
               Portal do cliente
-            </Link>
+            </a>
           </nav>
         </div>
       </header>
