@@ -179,14 +179,9 @@ function ProdutosPage() {
             >
               Creators 01
             </Link>
-            <a
-              href="https://reciclagem.basezeroum.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-outline-blue"
-            >
+            <Link to="/portal" className="btn-outline-blue">
               Portal do cliente
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
